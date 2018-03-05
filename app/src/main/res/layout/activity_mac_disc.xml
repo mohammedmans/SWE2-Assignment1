@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quakereport.mac_disc">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/happy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Happy Birthday"
+        android:textColor="#3F51B5"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wife_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="my wife"
+        android:textAllCaps="true"
+        android:textColor="#B71C1C"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/flower_image_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/wife_text_view"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/wish_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flower_image_view"
+        android:layout_centerHorizontal="true"
+        android:text="Wishing you"
+        android:textColor="#D50000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/birth_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wish_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="a birthday as bright"
+        android:textColor="#D50000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/smile_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birth_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="as your smile"
+        android:textColor="#D50000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
+</ScrollView>
